@@ -40,7 +40,7 @@ const Login = (props) => {
         } else {
           localStorage.setItem("token", "");
 
-          setAuthenticated(false);
+          // setAuthenticated(false);
           props.setState(false);
           setErrorMsg(obj.message);
         }
