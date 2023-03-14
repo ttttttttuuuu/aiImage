@@ -10,7 +10,7 @@ import { MdOutlineLightMode, MdModeNight } from "react-icons/md";
 import { RiShareBoxFill } from "react-icons/ri";
 import { FaFireAlt } from "react-icons/fa";
 // let url = "http://localhost:8080";
-let url = "https://aiimage-067r.onrender.com";
+let url = "https://aiimage-94xi.onrender.com";
 export {
   download,
   logo,
