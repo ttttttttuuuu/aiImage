@@ -1,6 +1,6 @@
 import download from "./download.png";
 import logo from "./logo.svg";
-// import logoDark from "./logoDark.svg";
+import logoDark from "./darklogo.svg";
 import loading from "./loading.svg";
 import preview from "./preview.png";
 import saved from "./saved.png";
@@ -24,4 +24,5 @@ export {
   MdModeNight,
   url,
   FaFireAlt,
+  logoDark,
 };

@@ -1,12 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import { Link } from "react-router-dom";
-import {
-  logo,
-  // logoDark,
-  MdOutlineLightMode,
-  MdModeNight,
-} from "../assets";
+import { logo, logoDark, MdOutlineLightMode, MdModeNight } from "../assets";
 
 const Navbar = (props) => {
   // check user is login?
@@ -23,7 +18,7 @@ const Navbar = (props) => {
         {props.mode ? (
           <img src={logo} alt="logo" className="w-28 object-contain" />
         ) : (
-          <img src={logo} alt="logo" className="w-28 object-contain" />
+          <img src={logoDark} alt="logo" className="w-28 object-contain" />
         )}
       </Link>
       <div className="flex ">
